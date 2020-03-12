@@ -493,7 +493,13 @@ version = "0.1.0"
 dependencies = [
  "actix-rt",
  "actix-web",
+ "bytes",
  "git2",
+ "lazy_static",
+ "mime",
+ "npm_scripts",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
@@ -984,6 +990,18 @@ dependencies = [
  "cfg-if",
  "libc",
  "winapi 0.3.8",
+]
+
+[[package]]
+name = "npm_scripts"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e6e4c29bdde731d10ad74aba619204d746f4d5ed0e3f04c98f8713d2a89cf365"
+dependencies = [
+ "failure",
+ "serde",
+ "serde_derive",
+ "serde_json",
 ]
 
 [[package]]
